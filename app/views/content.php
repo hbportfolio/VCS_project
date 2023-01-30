@@ -1,5 +1,3 @@
-
-
 <section class="hero">
     <div class="container">
         <div class="hero-text">
@@ -7,38 +5,33 @@
                 <a href="#"><img src="../app/images/logo.webp" alt="Logo"></a>
             </div>
             <h1>Italian Food</h1>
-            <p class="upper-text">Lorem Ipsum Dolor</p>
+            <p class="upper-text">Our favorite recipes</p>
             <a href="#" class="btn">Read more</a>
-            <p class="lower-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto laboriosam quod molestias optio iusto dolorem voluptatum voluptate minima ipsum voluptatibus!</p>
+            <p class="lower-text">Discover authentic Italian dishes with our collection of classic recipes, expertly crafted and curated by our Italian culinary team. Indulge in taste and tradition.</p>
         </div>
         <div class="hero-images">
-            <!-- <img class="large-dish" src="../app/images/dish1.webp" alt="Spaghetti">
-            <img class="small-dish" src="../app/images/dish2.webp" alt="Pesto">
-            <img class="hero-leaves" src="../app/images/leaves.webp" alt=""> -->
-        </div>
+            <img class="hero-leaves" src="../app/images/leaves.webp" alt="">
     </div>
 </section>
-
-
 <section class="section2">
     <div class="container">
-        <h2>Lorem Ipsum Dolor</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui mollitia iure neque quis in eius quisquam voluptas magni officiis suscipit!</p>
+        <h2>Our Favorite Dishes</h2>
+        <p>Indulge in the delicious flavors of traditional Italian dishes. Our carefully selected collection showcases the country's culinary expertise, perfect for any meal or occasion.</p>
         <div class="dishes">
             <div>
-                <img src="../app/images/section1-dish1.webp" alt="">
-                <h4>Lorem, ipsum.</h4>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                <img src="../app/images/margharita.webp" alt="">
+                <h4>Pizza margharita</h4>
+                <p>One of the most well known clasic pizzas in the world</p>
             </div>
             <div>
-                <img src="../app/images/section1-dish2.webp" alt="">
-                <h4>Lorem, ipsum.</h4>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                <img src="../app/images/olive.webp" alt="">
+                <h4>Spaghetti Aglio e Olio</h4>
+                <p>A simple dish that is loved by all italian food lovers.</p>
             </div>
             <div>
-                <img src="../app/images/section1-dish3.webp" alt="">
-                <h4>Lorem, ipsum.</h4>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                <img src="../app/images/lasagna.webp" alt="">
+                <h4>Lasagna</h4>
+                <p>A staple in the italian kitchen, usually made for special events and celebrations.</p>
             </div>
         </div>
         <a href="#" class="btn">Show more</a>
@@ -46,13 +39,13 @@
 </section>
 <section class="section3">
     <div class="container">
-        <h2>Lorem Ipsum Dolor</h2>
-        <div class="section-3-content">
+        <h2>Taste of Italy: A Culinary Journey</h2>
+        <div class="section3-content">
             <div>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure consectetur qui provident quisquam cum pariatur eius. Odit provident necessitatibus culpa, officia fugiat eveniet voluptatum maxime perferendis, consequatur reprehenderit esse ipsam minima earum voluptatibus, iusto ad corporis sequi beatae inventore repellendus quasi soluta nobis cum! Neque nemo iure eveniet delectus. Veniam!</p>
+                <p>Delve into the rich and flavorful world of Italian cuisine. From the freshest ingredients and simple preparation methods to the traditional slow-cooking techniques, each dish is a masterpiece of taste and tradition. Immerse yourself in the essence of Italian cooking and discover a new world of flavor.</p>
             </div>
             <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ducimus, at ut labore atque recusandae possimus qui libero neque dicta doloremque in quaerat fugit reprehenderit nihil voluptatum dolore nisi? Placeat aliquid dolorum ipsum quod ad numquam cumque dolor architecto, illum porro eligendi quidem libero laboriosam deleniti nisi natus velit rerum.</p>
+                <p>Discover the endless possibilities of Italian cooking. From savory soups and mouth-watering pastas to juicy meats and decadent desserts, Italian cuisine offers a variety of options to satisfy your cravings. Explore the diverse range of dishes, each with its own unique twist, and experience the true taste of Italy with every bite.</p>
             </div>
         </div>
         <a href="#" class="btn">More info</a>
@@ -63,21 +56,21 @@
         <div class="section4-content">
             <div class="item">
                 <div>
-                    <img src="../app/images/section3-dish1.webp" alt="">
+                    <img src="../app/images/pasta-1.webp" alt="">
                 </div>
                 <div>
-                    <h3>Discount up to 50% All Excursions</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    <h3>Discover your new favorite dish today!</h3>
+                    <p>Embark on a culinary adventure with our collection of delicious Italian dishes. From classic favorites to contemporary twists, find your new go-to meal today and experience the true taste of Italy.</p>
                     <a href="#" class="btn">Read more</a>
                 </div>
             </div>
             <div class="item">
                 <div>
-                    <img src="../app/images/section3-dish2.webp" alt="">
+                    <img src="../app/images/pasta-2.webp" alt="">
                 </div>
                 <div>
-                    <h3>January's Promo: Buy 1 Get 1 Free!</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    <h3>Try new experiences and educate your palate</h3>
+                    <p>Step outside your comfort zone and expand your culinary horizons with our collection of unique Italian dishes. Learn new cooking techniques, discover new flavors, and educate your palate with every bite.</p>
                     <a href="#" class="btn">Read more</a>
                 </div>
             </div>
@@ -86,31 +79,30 @@
 </section>
 <section class="section5">
     <div class="container flex-container">
-        <h2>Lorem Ipsum Dolor Sit Amer</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis asperiores deleniti reiciendis in culpa praesentium perferendis optio dolorum suscipit illo.</p>
-        <img src="../app/images/section4-dish1.webp" alt="">
-        <img class="slice" src="../app/images/slice.webp" alt="">
-        <img class="leaves" src="../app/images/leaves2.webp" alt="">
+        <h2>Italian Culinary Exploration</h2>
+        <p>Discover the rich flavors of Italian cuisine with our new section. Indulge in the authentic taste of Italy with every bite.</p>
+        <div></div>
+        <img class="pizza" src="../app/images/pizza.webp" alt="">
     </div>
 </section>
 <section class="section6">
     <div class="container">
         <div class="flex-container">
             <div>
-                <h3>Lorem Ipsum</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero ea eveniet aliquid ipsa dicta voluptatibus aperiam maiores asperiores necessitatibus dolorum!</p>
+                <h3>Pasta & Pizza</h3>
+                <p>Italian cuisine offers variety and timeless appeal. From pasta to pizzas, it's a staple.</p>
             </div>
             <div>
-                <h3>Lorem Ipsum</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero ea eveniet aliquid ipsa dicta voluptatibus aperiam maiores asperiores necessitatibus dolorum!</p>
+                <h3>Fresh flavors</h3>
+                <p>Italian food boasts bold, fresh flavors in every dish. Local ingredients, classic recipes.</p>
             </div>
             <div>
-                <h3>Lorem Ipsum</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero ea eveniet aliquid ipsa dicta voluptatibus aperiam maiores asperiores necessitatibus dolorum!</p>
+                <h3>Fast & Delicious</h3>
+                <p>Italian food's simplicity creates culinary magic. A few ingredients bring ordinary dishes to life.</p>
             </div>
         </div>
-        <p class="lower-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque fugiat sunt, exercitationem quasi quos eius sapiente voluptatum placeat porro nostrum!</p>
-        <small>Lorem Ipsum</small>
+        <p class="lower-p">"Italian cuisine is a true celebration of life through food. The blend of fresh ingredients and timeless recipes create a symphony of flavor in every dish. It's a pleasure to bring these classic dishes to life in the kitchen and share their joy with others"</p>
+        <small> - Mario Batali, Celebrity Chef</small>
     </div>
 </section>
 <section class="section7">
@@ -125,6 +117,5 @@
             <textarea name="message" rows="10" placeholder="Your message.." required></textarea>
             <input name="submit" type="submit" value="Send">
         </form>
-        <img class="leaves3" src="../app/images/leaves3.webp" alt="">
     </div>
 </section>

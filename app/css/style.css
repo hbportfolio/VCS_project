@@ -51,24 +51,6 @@ section > .container {
     white-space: nowrap;
 }
 
-/* 
-@media (max-width: 1280px) {
-
-}
-
-@media (max-width: 1024px) {
-
-}
-
-@media (max-width: 768px) {
-
-}
-
-@media (max-width: 640px) {
-
-}
-*/
-
 /* Header */
 
 .header .container {
@@ -239,10 +221,6 @@ section > .container {
         display: flex;
         justify-content: flex-end;
     }
-
-    .header {
-        background-color: rgba(0, 0, 0, 0.9);
-    }
 }
 
 /* Hero */
@@ -291,22 +269,23 @@ h1 {
     color: white;
 }
 
-/* 
-
 .hero-images {
-    width: 50%;
     display: flex;
-    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .hero-leaves {
-    margin-top: -200px;
-    margin-left: 350px;
-    max-width: 500px;
-} */
+    width: 80%;
+    position: relative;
+    bottom: -200px;
+    right: -50px;
+}
 
 @media (max-width: 1280px) {
-    
+    .hero-leaves {
+        bottom: -120px;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -315,6 +294,11 @@ h1 {
         background-repeat: no-repeat, no-repeat, no-repeat;
         background-size: 35%, 14%, auto;
         background-position: 95% 60%, 65% 90%, center;
+    }
+
+    .hero-leaves {
+
+        width: 90%;
     }
 }
 
@@ -341,10 +325,6 @@ h1 {
     .hero .lower-text {
         max-width: 100%;
     }
-}
-
-@media (max-width: 640px) {
-
 }
 
 /* Section 2 */
@@ -386,18 +366,29 @@ h1 {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    box-shadow: 5px 5px 5px #e9e9e9;
+    margin: 30px 15px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.section2 .container .dishes > div:hover {
+    scale: 1.03;
+    transition: 0.4s;
 }
 
 .section2 .container .dishes > div img {
-    width: 80%;
-}
-
-.section2 .container .dishes > div h4 {
-
+    height: 200px;
+    scale: 1.2;
 }
 
 .section2 .container .dishes > div p {
     align-self: center;
+}
+
+.section2 .container .dishes > div h4 {
+    margin-top: 40px;
+    margin-bottom: -2px;
 }
 
 .section2 .btn {
@@ -420,10 +411,6 @@ h1 {
     .section2 h2 {
         font-size: calc(32px + 2vw);
     }
-}
-
-@media (max-width: 640px) {
-
 }
 
 @media (max-width: 540px) {
@@ -468,14 +455,6 @@ h1 {
     margin: 40px auto 60px;
 }
 
-@media (max-width: 1280px) {
-
-}
-
-@media (max-width: 1024px) {
-
-}
-
 @media (max-width: 768px) {
     .section3-content {
         display: flex;
@@ -487,10 +466,6 @@ h1 {
         width: 90%;
         margin: 20px 10px;
     }
-}
-
-@media (max-width: 640px) {
-
 }
 
 /* Section 4 */
@@ -536,6 +511,7 @@ h1 {
 .section4-content .item div img {
     width: 100%;
     margin: auto auto;
+
 }
 
 .section4-content .item h3 {
@@ -549,10 +525,6 @@ h1 {
 .section4 .btn {
     margin: 60px 0;
     justify-self: left;
-}
-
-@media (max-width: 1280px) {
-
 }
 
 @media (max-width: 1024px) {
@@ -653,14 +625,6 @@ h1 {
     }
 } */
 
-@media (max-width: 1280px) {
-
-}
-
-@media (max-width: 1024px) {
-
-}
-
 @media (max-width: 840px) {
     .section5 div h2 {
         font-size: calc(32px + 1.5vw);
@@ -723,6 +687,7 @@ h1 {
 
 .section6 .container div div {
     width: 300px;
+    margin: 10px;
     display: flex;
     flex-direction: column;
 }
@@ -938,20 +903,4 @@ h1 {
 
 .section8 .container .right-col div {
     margin: 0 20px;
-}
-
-@media (max-width: 1280px) {
-
-}
-
-@media (max-width: 1024px) {
-
-}
-
-@media (max-width: 768px) {
-
-}
-
-@media (max-width: 640px) {
-
 }
