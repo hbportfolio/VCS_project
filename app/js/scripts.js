@@ -4,3 +4,9 @@ window.addEventListener("scroll", function(){
     nav.classList.toggle("after-scroll", window.scrollY > 0);
     header.classList.toggle("after-scroll", window.scrollY > 0);
 });
+
+function myFunction() {
+    let popup = document.getElementById("burger-menu");
+    document.getElementById("arrow").classList.toggle("flip");
+    popup.classList.toggle("show");
+}
